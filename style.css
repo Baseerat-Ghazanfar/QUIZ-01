@@ -1,0 +1,27 @@
+#main
+{
+    background-color: rgb(6, 6, 41);
+    color: aliceblue;
+}
+#front button
+{
+    background-color:darkviolet;
+    width: 80%;
+    margin-left: 120px;
+}
+#front input:hover
+{
+    background-color: aquamarine;
+    box-shadow: 0px 0px 20px rgba(0,255,255,0.5);
+    transform: scale(1.1);
+}
+#front input:active
+{
+   background-color: bisque;
+}
+#front input:focus,
+select:focus
+{
+outline: none;
+box-shadow: 0px 0px 20px rgba(0,255,255,0.5); ;
+}
